@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>LCDTEC NG: Solar Audit and Calculation</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/download.png" rel="icon">
+  <link href="assets/img/download.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Medicio
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
+      <div class="align-items-center d-none d-md-flex">
+        <i class="bi bi-clock"></i> Monday - Saturday, 8AM to 10PM
+      </div>
+      <div class="d-flex align-items-center">
+        <i class="bi bi-phone"></i> Call us now +234-812-386-1398
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <a href="index.html" class="logo me-auto"><img src="assets/img/mylogo.png" alt=""></a>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Brand Identity</a></li>
+          <li><a class="nav-link scrollto" href="#services">Projects</a></li>
+          <li><a class="nav-link scrollto" href="#departments">Products</a></li>
+
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="#appointment" class="appointment-btn scrollto">
+        <span class="d-none d-md-inline"></span> Calculate Load</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/hero2.jpeg)">
+          <div class="container">
+
+            <h3><span class="d-none d-md-inline">Welcome to </span> LCDTEC NG</a></h3>
+            <p>We provide integrated inverter backup and SHS solutions with remote access monitoring and applications
+              across homes and offices,
+              for both domestic and commercial users. As well as corporate organisations and rural communities using
+              tier one inverter systems.
+            </p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(assets/img/hero1.jpeg)">
+          <div class="container">
+            <h3><span class="d-none d-md-inline">Welcome to </span> LCDTEC NG</a></h3>
+            <p>We provide integrated inverter backup and SHS solutions with remote access monitoring and applications
+              across homes and offices,
+              for both domestic and commercial users. As well as corporate organizations and rural communities using
+              tier one inverter systems.
+            </p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(assets/img/hero4.jpeg)">
+          <div class="container">
+            <h3><span class="d-none d-md-inline">Welcome to </span> LCDTEC NG</a></h3>
+            <p>We provide integrated inverter backup and SHS solutions with remote access monitoring and applications
+              across homes and offices,
+              for both domestic and commercial users. As well as corporate organizations and rural communities using
+              tier one inverter systems.
+            </p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="fas fa-th"></i></div>
+              <h4 class="title"><a href="">Off-Grid Solar Solutions</a></h4>
+              <p class="description">
+                Photovoltaic off-grid systems provide the perfect solution for a flexible, decentralized and affordable
+                energy supply in these often remote areas.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="fa-solid fa-solar-panel"></i></div>
+              <h4 class="title"><a href="">Solar Panel Installation</a></h4>
+              <p class="description">Investigate your home's energy efficiency · Assess your solar potential and any
+                limitations · Assess your options for going solar · Estimate your solar electricity</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="fa-solid fa-bridge-circle-check"></i></div>
+              <h4 class="title"><a href="">Inverter Backup Solutions</a></h4>
+              <p class="description">Inverter backup systems incorporate larger battery chargers which allows larger
+                battery sets to be installed which results in much longer backup times than UPS</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><i class="fa-solid fa-car-battery"></i></div>
+              <h4 class="title"><a href="">Batteries & Maintenance</a></h4>
+              <p class="description">
+                It is generally recommended to clean solar panels every 6 months to a year in order to maintain the
+                productivity, efficiency, and effectiveness of the panels. </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Featured Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <!-- <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3>In an </h3>
+          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum.</p>
+          <a class="cta-btn scrollto" href="#appointment">Make an Make an Appointment</a>
+        </div>
+
+      </div>
+    </section> -->
+    <!-- ! LET THIS SECTION STAY EMPTY AS IT IS NOT NEEDED -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About Us</h2>
+          <p>Our focus is to provide our clients a timely delivery for every purchase being made in any of our products,
+            from inverters, batteries, solar panels backed with valid warranty claims. And as well as providing you with
+            after sales support throughout the warranty report and thereafter.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img src="assets/img/solar-hero3.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Our Projects & Goals</h3>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> Increase access to electricity by providing affordable and reliable
+                solar solutions.
+              </li>
+              <li><i class="bi bi-check-circle"></i> Contribute to Nigeria's renewable energy capacity by developing and
+                implementing solar projects.</li>
+              <li><i class="bi bi-check-circle"></i> Create job opportunities and provide training for local communities
+                in the solar industry.</li>
+
+              <li><i class="bi bi-check-circle"></i>
+                Foster partnerships and collaborations with government agencies and other stakeholders to drive the
+                growth of the solar industry in Nigeria.
+              </li>
+              <li><i class="bi bi-check-circle"></i>
+                Reduce reliance on fossil fuels by promoting renewable energy.</li>
+              <li><i class="bi bi-check-circle"></i>
+                Educate and raise awareness among Nigerians about the benefits of solar energy.</li>
+            </ul>
+            <p>
+              The use of solar systems in Nigeria can increase access to electricity, reduce costs, provide
+              environmental benefits, create jobs, improve access to education and healthcare, and increase energy
+              security.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="fa-solid fa-user-tie"></i>
+              <span style="font-size: 26px;">Professional</span>
+
+              <p><strong>Solar & Electrical Engineers</strong></p>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="fa-solid fa-file-circle-check"></i>
+              <span style="font-size: 26px;">Verified</span>
+              <p><strong>Authentic Batteries & cells</strong> </p>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="fa-solid fa-certificate"></i>
+              <span style="font-size: 26px;">Quality</span>
+              <p><strong>Solar Panels, cables, and accessories </strong> </p>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="fa-solid fa-comments"></i>
+              <span style="font-size: 26px;">Feedback</span>
+              <p><strong>Support, and Customer Care</strong> </p>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Features Section ======= -->
+    <!-- <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-right">
+            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+              <div class="count-box">
+                <i class="fas fa-user-md"></i>
+                <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1"
+                  class="purecounter"></span>
+  
+                <p><strong>Doctors</strong> consequuntur quae qui deca rode</p>
+                
+              </div>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-cube-alt"></i>
+              <h4>Harum esse qui</h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-images"></i>
+              <h4>Aut occaecati</h4>
+              <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-shield"></i>
+              <h4>Beatae veritatis</h4>
+              <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+            </div>
+          </div>
+          <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/features.jpg");'
+            data-aos="zoom-in"></div>
+        </div>
+
+      </div>
+    </section> -->
+    <!-- End Features Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Our Projects & Services</h2>
+          <p>With climate change being a big cause for concern, there is a significant need for more engineers to make
+            renewable energy resources like solar into a reality. </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon"><i class="fa-solid fa-fan"></i></div>
+            <h4 class="title"><a href="">Solar powered fans & lanterns</a></h4>
+
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon"><i class="fa-solid fa-traffic-light"></i></div>
+            <h4 class="title"><a href="">Solar LED Road Marker </a></h4>
+
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon"><i class="fa-solid fa-solar-panel"></i></div>
+            <h4 class="title"><a href="">Off Grid Solar System</a></h4>
+
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon"><i class="fa-solid fa-boxes-stacked"></i></div>
+            <h4 class="title"><a href="">Portable Solar Power Inverter </a></h4>
+
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon"><i class="fa-brands fa-instalod"></i></div>
+            <h4 class="title"><a href="">Solar Inverter Using Sg3525</a></h4>
+
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon"><i class="fa-solid fa-infinity"></i></div>
+            <h4 class="title"><a href="">Solar Inverter For Domestic/Industrial</a></h4>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Appointment Section ======= -->
+    <section id="appointment" class="appointment section-bg">
+      <div class="container" data-aos="fade-up">
+        <!-- ! ADDING A NEW SECTION FOR CALL TO ACTION -->
+
+        <div class="py-14 bg-dark" style="padding: 25px; background-color: #2e2e68;">
+          <div class="container">
+            <div class="row">
+              <div class="offset-lg-2 col-lg-8 col-md-12 col-12 text-center">
+                <span class="fs-4 text-warning ls-md text-uppercase
+          fw-semi-bold"><i class="fa-regular fa-lightbulb"></i> Introducing
+
+                </span>
+                <!-- heading  -->
+                <h2 class="display-3 mt-4 mb-3 text-white fw-bold">Our Solar Load Calculator for Appliances</h2>
+                <!-- para  -->
+                <p class="lead text-white-50 px-lg-8 mb-6">Designed for domestic and
+                  companies looking to integrate
+                  a simple, premium and modern solar energy system.</p>
+                <a href="https://lcdtecng.com/load-calculator/" class="btn btn-danger">Try For Free</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ! CALL TO ACTION ENDS HERE -->
+        <!-- End Appointment Section -->
+
+        <!-- ======= Product Section ======= -->
+        <section id="departments" class="departments">
+          <div class="container" data-aos="fade-up">
+
+
+
+            <!-- ! IMAGE GRID FOR PRODUCTS -->
+
+            <!-- Page Content -->
+            <div class="container">
+
+              <h1 class="fw-light text-center text-lg-start mt-4 mb-0">Product Gallery</h1>
+
+              <hr class="mt-2 mb-5">
+
+              <div class="row text-center text-lg-start">
+
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="/assets/img/xd/7b6ca501-3cd8-422a-8ce9-71cb6250f72a.JPG"
+                      alt="">
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="/assets/img/xd/614ab989-fade-4d87-acf5-2d93567fc3f7.JPG"
+                      alt="">
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="/assets/img/xd/4eb3f2f4-aa03-412c-ba08-527fc852b90a.JPG"
+                      alt="">
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="/assets/img/xd/a1536f45-888b-4228-81e7-844ddf81a465.JPG"
+                      alt="">
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="/assets/img/xd/bd1943fc-3c6f-411e-8c6b-22596cde0ac6.JPG"
+                      alt="">
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="/assets/img/xd/b4f21512-a500-4185-9c74-1458c7043687.JPG"
+                      alt="">
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="/assets/img/xd/c24290dc-f5ab-4532-a9ec-3ad6c3e0f262.JPG"
+                      alt="">
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="/assets/img/xd/c631d413-f441-437a-b795-2ee1f5f25ebc.JPG"
+                      alt="">
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail"
+                      src="/assets/img/xd/lcdtec-project-17-e1676900721435-q2fwiaktwrhnvmvy6weii7bjg2nhvv40lg6b3hvb74.png"
+                      alt="">
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="/assets/img/xd/lcdtec-project-25-e1676899783582.png"
+                      alt="">
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="/assets/img/xd/cf2f2f37-d497-4ef0-a50a-73de97c49b18.JPG"
+                      alt="">
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="/assets/img/xd/ebdc7bca-aac4-436c-9d53-3c232603a86b.JPG"
+                      alt="">
+                  </a>
+                </div>
+              </div>
+
+            </div>
+
+          </div> <!-- ! grid box  ABOVE -->
+
+
+
+        </section><!-- End Departments Section -->
+
+
+
+
+
+        <!-- ======= Gallery Section ======= -->
+        <section id="gallery" class="gallery">
+          <div class="container" data-aos="fade-up">
+
+
+            <h2 align="center">Our Partners</h2>
+            <section class="logoMarqueeSection">
+              <div class="container" id="logoMarqueeSection">
+                <div class="default-content-container flex items-center">
+                  <div class="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
+                    <div class="marquee" style="animation-duration: 57s;">
+                      <a target="_blank"><img src="/assets/img/testimonials/4ffcaac7-6127-46c0-8482-763cefd38877.JPG"
+                          title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                      <a target="_blank"><img src="/assets/img/testimonials/abd0c58a-8882-494e-a917-eaf6d7239dfe.JPG"
+                          title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                      <a target="_blank"><img src="/assets/img/testimonials/c911b5a4-bd4d-46da-8d28-373bce0d77d1.JPG"
+                          title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                      <a target="_blank"><img src="/assets/img/testimonials/canadian-solar-tradepartner-150x150.png"
+                          title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                      <a target="_blank"><img src="/assets/img/testimonials/deka-tradepartner-150x150.png" title=""
+                          class="marqueelogo" style="width: auto; max-width: none;"></a>
+                      <a target="_blank"><img src="/assets/img/testimonials/f9dd1a9b-40db-46a5-bb4c-1ebad3425902.JPG"
+                          title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                      <a target="_blank"><img src="/assets/img/testimonials/fullriver-tradepartner-150x150.png" title=""
+                          class="marqueelogo" style="width: auto; max-width: none;"></a>
+                      <a target="_blank"><img src="/assets/img/testimonials/outback-tradepartner-150x150.png" title=""
+                          class="marqueelogo" style="width: auto; max-width: none;"></a>
+                      <a target="_blank"><img src="/assets/img/testimonials/sma-tradepartners-150x150.png" title=""
+                          class="marqueelogo" style="width: auto; max-width: none;"></a>
+                      <a target="_blank"><img src="/assets/img/testimonials/studer-tradepartner-150x150.png" title=""
+                          class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    </div>
+                    <div class="marquee" style="animation-duration: 57s;">
+                      <a target="_blank"><img src="/assets/img/testimonials/4ffcaac7-6127-46c0-8482-763cefd38877.JPG"
+                          title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                      <a target="_blank"><img src="/assets/img/testimonials/abd0c58a-8882-494e-a917-eaf6d7239dfe.JPG"
+                          title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                      <a target="_blank"><img src="/assets/img/testimonials/c911b5a4-bd4d-46da-8d28-373bce0d77d1.JPG"
+                          title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                      <a target="_blank"><img src="/assets/img/testimonials/canadian-solar-tradepartner-150x150.png"
+                          title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                      <a target="_blank"><img src="/assets/img/testimonials/deka-tradepartner-150x150.png" title=""
+                          class="marqueelogo" style="width: auto; max-width: none;"></a>
+                      <a target="_blank"><img src="/assets/img/testimonials/f9dd1a9b-40db-46a5-bb4c-1ebad3425902.JPG"
+                          title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                      <a target="_blank"><img src="/assets/img/testimonials/fullriver-tradepartner-150x150.png" title=""
+                          class="marqueelogo" style="width: auto; max-width: none;"></a>
+                      <a target="_blank"><img src="/assets/img/testimonials/outback-tradepartner-150x150.png" title=""
+                          class="marqueelogo" style="width: auto; max-width: none;"></a>
+                      <a target="_blank"><img src="/assets/img/testimonials/sma-tradepartners-150x150.png" title=""
+                          class="marqueelogo" style="width: auto; max-width: none;"></a>
+                      <a target="_blank"><img src="/assets/img/testimonials/studer-tradepartner-150x150.png" title=""
+                          class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+          </div>
+        </section><!-- End Gallery Section -->
+        <!-- End Pricing Section -->
+
+        <!-- ======= Frequently Asked Questioins Section ======= -->
+        <!-- <section id="faq" class="faq section-bg">
+          <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+              <h2>Frequently Asked Questioins</h2>
+              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
+                sit
+                in iste officiis commodi quidem hic quas.</p>
+            </div>
+
+            <ul class="faq-list">
+
+              <li>
+                <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Non consectetur a erat nam at
+                  lectus
+                  urna duis? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
+                </div>
+                <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
+                    gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Feugiat scelerisque varius morbi
+                  enim
+                  nunc faucibus a pellentesque? <i class="bi bi-chevron-down icon-show"></i><i
+                    class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id
+                    donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque
+                    elit
+                    ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Dolor sit amet consectetur
+                  adipiscing
+                  elit pellentesque habitant morbi? <i class="bi bi-chevron-down icon-show"></i><i
+                    class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar
+                    elementum
+                    integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu
+                    tincidunt.
+                    Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi
+                    quis
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Ac odio tempor orci dapibus.
+                  Aliquam
+                  eleifend mi in nulla? <i class="bi bi-chevron-down icon-show"></i><i
+                    class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id
+                    donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque
+                    elit
+                    ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Tempus quam pellentesque nec nam
+                  aliquam sem et tortor consequat? <i class="bi bi-chevron-down icon-show"></i><i
+                    class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in.
+                    Nunc
+                    vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus
+                    gravida quis blandit turpis cursus in
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Tortor vitae purus faucibus
+                  ornare.
+                  Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bi bi-chevron-down icon-show"></i><i
+                    class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada
+                    nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut
+                    venenatis
+                    tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas
+                    fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+        </section>End Frequently Asked Questioins Section -->
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+          <div class="container">
+
+            <div class="section-title">
+              <h2>Contact</h2>
+              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
+                sit
+                in iste officiis commodi quidem hic quas.</p>
+            </div>
+
+          </div>
+
+
+
+          <div class="container">
+
+            <div class="row mt-5">
+
+              <div class="col-lg-6">
+
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="info-box">
+                      <i class="bx bx-map"></i>
+                      <h3>Our Address</h3>
+                      <p>Plot 841 Oyebode Street Omole Phase 2 Olowora Ikeja, Lagos State, Nigeria</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="info-box mt-4">
+                      <i class="bx bx-envelope"></i>
+                      <h3>Email Us</h3>
+                      <p>info@lcdtecnng.com</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="info-box mt-4">
+                      <i class="bx bx-phone-call"></i>
+                      <h3>Call Us</h3>
+                      <p>+234-812-386-1398, or 
+                        +234-807-674-0604</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-lg-6">
+                <!--Google map-->
+                <div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no"
+                    marginheight="0" marginwidth="0"
+                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Oyebode%20Street%20Omole%20Phase%202,%20Ikeja+(LCDTEC%20NG)&amp;t=k&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                      href="https://www.maps.ie/distance-area-calculator.html">measure acres/hectares on
+                      map</a></iframe></div>
+
+              </div>
+
+            </div>
+        </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>LCDTEC NG</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medicio-free-bootstrap-theme/ -->
+        Designed by <a href="https://shub.com.ng">SOUTECH VENTURES</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
