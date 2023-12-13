@@ -1,6 +1,6 @@
 # LCDTEC NG - Solar Solutions Website
 
-Welcome to the LCDTEC NG Solar Solutions Website frontend repository. This project is developed by [Your Name] as part of Soutech's collaboration with LCDTEC NG.
+Welcome to the LCDTEC NG Solar Solutions Website frontend repository. This project is developed by me as part of Soutech's collaboration with LCDTEC NG.
 
 ## About LCDTEC NG
 
